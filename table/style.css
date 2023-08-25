@@ -1,0 +1,13 @@
+table {
+  margin: 0 auto;
+  border: 2px white solid;
+}
+
+tr {
+  background-color: yellow;
+}
+
+td {
+  color: white;
+  background-color: gray;
+}
