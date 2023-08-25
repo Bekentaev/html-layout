@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form>
+      <p>Name:</p>
+      <input type="text" name="Name" />
+      <p>E-mail address:</p>
+      <input type="email" name="email" id="email" />
+      <p>Phone number:</p>
+      <input type="tel" name="tel" id="tel" placeholder="xxx-xxx-xxxx" />
+      <p>Age:</p>
+      <input type="number" name="age" id="age" />
+      <p>Gender:</p>
+      <input type="radio" name="gender" id="male" />
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="female" />
+      <label for="">Female</label>
+      <input type="radio" name="gender" id="Other" />
+      <label for="">Other</label>
+      <p>Programming languages you are interested in:</p>
+      <input type="checkbox" name="languages" id="html" />
+      <label for="">HTML</label>
+      <input type="checkbox" name="languages" id="css" />
+      <label for="css">CSS</label>
+      <input type="checkbox" name="languages" id="javascript" />
+      <label for="javascript">JavaScript</label>
+      <input type="checkbox" name="languages" id="python" />
+      <label for="python">Python</label>
+
+      <p>Your interested parties</p>
+      <select name="" id="" size="4" multiple="multiple">
+        <option value="Sport">Sport</option>
+        <option value="Muzyka">Muzyka</option>
+        <option value="Film">Film</option>
+        <option value="Literatura">Literatura</option>
+      </select>
+
+      <p>Brief description:</p>
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+
+      <p>Avatar:</p>
+      <input type="file" name="" id="image" />
+
+      <button type="submit">submit</button>
+    </form>
+  </body>
+</html>
